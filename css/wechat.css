@@ -3,14 +3,14 @@
     padding: 0;
 }
 
-div {
+.content div {
     position: relative;
     width: 100%;
 }
-div img {
+.content div img {
     width: 100%;
 }
-div img.footer_button {
+.content div img.footer_button {
     position: absolute;
     width: 28%;
     left: 34%;

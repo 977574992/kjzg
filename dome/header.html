@@ -1,3 +1,74 @@
+<style>
+    * {
+        margin: 0;
+        height: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    li {
+        list-style: none;
+    }
+    .h_header {
+        width: 100%;
+        z-index: 99999;
+        left: 0;
+        top: 0;
+        position: fixed;
+        background: rgba(255, 255, 255, 0.9);
+        height: 94px;
+    }
+
+    .h_header_top {
+        width: 76%;
+        height: 84px;
+        margin: 0 auto;
+        padding-top: 15px;
+        background: url(../img/h_header_bg.png) right top no-repeat;
+    }
+
+    .h_header_top .h_logo {
+        float: left;
+        /* width: 14.5%; */
+        height: 100%;
+    }
+
+    .h_nav_list {
+        float: left;
+        margin-top: 2.5rem;
+        width: 61%;
+        height: 40px;
+        margin-left: 1.12rem;
+        padding: 0;
+        background: red;
+    }
+
+    .h_nav_list li {
+        float: left;
+        height: 100%;
+        line-height: 40px;
+        padding: 0 17px;
+        cursor: pointer;
+    }
+
+    .h_nav_list li a {
+        color: #727272;
+    }
+
+    .h_currLi {
+        background-color: #248bdb;
+        color: #fff;
+    }
+
+    .h_hotline {
+        float: right;
+        width: 19.7%;
+        height: 30px;
+        margin-top: 3.2rem;
+    }
+</style>
 <div class="h_header">
     <div class="h_header_top">
         <img class="h_logo" src="img/h_logo.png" alt="">
@@ -22,74 +93,3 @@
         <img class="h_hotline" src="img/h_hotline.png" alt="">
     </div>
 </div>
-<style>
-    * {
-        margin: 0;
-        height: 0;
-    }
-
-    a {
-        text-decoration: none;
-    }
-
-    li {
-        list-style: none;
-    }
-    .h_header {
-            width: 100%;
-            z-index: 99999;
-            left: 0;
-            top: 0;
-            position: fixed;
-            background: rgba(255, 255, 255, 0.9);
-            height: 94px;
-        }
-
-        .h_header_top {
-            width: 76%;
-            height: 84px;
-            margin: 0 auto;
-            padding-top: 15px;
-            background: url(../img/h_header_bg.png) right top no-repeat;
-        }
-
-        .h_header_top .h_logo {
-            float: left;
-            /* width: 14.5%; */
-            height: 100%;
-        }
-
-        .h_nav_list {
-            float: left;
-            margin-top: 2.5rem;
-            width: 61%;
-            height: 40px;
-            margin-left: 1.12rem;
-            padding: 0;
-            background: red;
-        }
-
-        .h_nav_list li {
-            float: left;
-            height: 100%;
-            line-height: 40px;
-            padding: 0 17px;
-            cursor: pointer;
-        }
-
-        .h_nav_list li a {
-            color: #727272;
-        }
-
-        .h_currLi {
-            background-color: #248bdb;
-            color: #fff;
-        }
-
-        .h_hotline {
-            float: right;
-            width: 19.7%;
-            height: 30px;
-            margin-top: 3.2rem;
-        }
-</style>
