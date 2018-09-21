@@ -1,0 +1,91 @@
+			 html{
+		    	font-size:16px;
+		    }
+		    *{
+		    	margin:0;
+		    	padding:0;
+		    }
+		    #header{
+		    	width:1200px;
+		    	height:100px;
+		    	margin:0 auto;
+		    	border:1px solid black;
+		    }
+			.weichat {
+				width:100%;
+			    max-width: 1431px;
+			    margin: 0 auto;
+			    text-align: center;
+			    position: relative;
+			    z-index: 998;
+			}
+			.weichat .slideA {
+			    position: absolute;
+			    top: 100px;
+			    left: 200px;
+			    z-index: 999;
+			    animation: mymovetoright 2s;
+			    -webkit-animation: mymovetoright 2s;
+			}
+			.weichat .slideB {
+			    position: absolute;
+			    top: 150px;
+			    left: 458px;
+			    z-index: 999;
+			    animation: mymovetocenter 2s;
+			    -webkit-animation: mymovetocenter 2s;
+			}
+			.weichat .slideC {
+			    position: absolute;
+			    top: 90px;
+			    right: 200px;
+			    z-index: 999;
+			    animation: mymovetoleft 2s;
+			    -webkit-animation: mymovetoleft 2s;
+			}
+			.slideA img{
+				width:100%;
+				height:100%;
+			}
+			.slideB img{
+				width:100%;
+				height:100%;
+			}
+			.slideC img{
+				width:100%;
+				height:100%;
+			}
+			@keyframes mymovetoright{
+				0% {
+				    left: 0px;
+				}
+
+				100% {
+				    left: 200px;
+				}
+			}
+			@keyframes mymovetocenter{
+				0% {
+				    top: 0px;
+				}
+
+				100% {
+				    top: 150px;
+				}
+			}
+			@keyframes mymovetoleft{
+				0% {
+				    right: 0px;
+				}
+				100% {
+				    right: 200px;
+				}
+			}
+			.slide-tu{
+				width:100%;
+				height:100%;
+			}
+			.slide-tu>img{
+				width:100%;
+				height:100%;
+			}
