@@ -1,0 +1,183 @@
+#header{
+    height: 100px;
+}
+.banner1{
+    height: 1114px;
+    position: relative;
+    width: 100%;
+    background:url(../img/logo2.jpg)no-repeat center center ;
+   background-size:100% 100%;
+    overflow: hidden;
+}
+#box{
+    width: 100%;
+    height: 100%;
+}
+ul,li,ol{
+    list-style: none;
+}
+.banner1 img{
+    position: absolute;
+    top: 260px;
+    left: 50%;
+    margin-left: -270px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#box .container-fluid{
+    padding: 0;
+}
+#box .container-fluid .col-xs-12, .col-sm-12, .col-lg-12, .col-md-12,.row{
+    padding: 0;
+    overflow: hidden;
+}
+#box .container-fluid .row{
+    margin: 0;
+}
+@media screen and (max-width: 1000px){
+    .goutong h2 img{
+        width: 100%;
+    }
+    .goutong h3 img{
+        width: 100%;
+    }
+
+}
+
+.goutong {
+    height:710px;
+    color: #000000;
+    width: 100%;
+    min-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;}
+.goutong img{
+    display:inline-block;
+}
+
+.goutong h2{
+    width: 100%;
+    margin: 95px 0 40px;
+    font-size: 40px;
+
+}
+.goutong h3 {
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.goutong p{
+    width: 100%;
+    font-size: 30px;
+}
+.goutong>img {
+    width: 100%;
+    margin-right: 50px;
+}
+.banner3{
+    width: 100%;
+    height: 100%;
+}
+.banner3 img{
+    width: 100%;
+    height: 100%;
+}
+div.banner2 {
+    background: #fefefe;
+    padding-top: 90px;
+}
+div.banner2 div.box {
+    width: 96%;
+    margin: 0 auto;
+}
+div.banner2 div.box img {
+    width: 100%;
+}
+
+div.desighn {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 80px;
+    position: relative;
+
+}
+div.banner2 div.box div.desighn img.search_img {
+    width: 30%;
+    margin-left: 3%;
+    float: left;
+}
+
+div.search {
+    width: 60%;
+    float: right;
+    z-index: 99;
+    padding-bottom: 40px;
+
+}
+
+div.search_btm {
+    width: 100%;
+    margin-top: 5em;
+    position: relative;
+}
+div.search_btm ol li {
+    width: 100%;
+}
+div.search_btm ol ul li {
+    width: 48%;
+    float: left;
+    text-align: center;
+    margin-bottom: 4.5em;
+    margin-left: 0.25em;
+}
+div.search_btm ol ul li img {
+    width: 100%;
+}
+div.search_btm ol ul li h3 {
+    color: #1e262c;
+    font-size: 20px;
+    line-height: 40px;
+}
+div.search_btm ol ul li p {
+    height: 7em;
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 24px;
+    color: #56595b;
+}
+div.search_btm ol ul li a {
+    display: inline-block;
+    width: 12em;
+    height: 4em;
+    line-height: 4em;
+    background-color: #f0f0f0;
+    color: #8b8e90;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+div.swiper-button-prev {
+    color: #dfadf9;
+    cursor: pointer;
+    font-size: 20px;
+    background: none;
+    position: absolute;
+    top: 100%;
+    left: 60%;
+}
+div.swiper-button-next {
+    color: #ffc700;
+    cursor: pointer;
+    font-size: 20px;
+    background: none;
+    position: absolute;
+    top: 100%;
+    right: 20%;
+}
+
+
+
+
