@@ -1,17 +1,25 @@
+.weichat .slideA {
+    position: absolute;
+    top: 100px;
+    left: 141px;
+    z-index: 999;
+    animation: mymovetoright 2s;
+    -webkit-animation: mymovetoright 2s;
+}
 .slideA img {
-    width: 81%;
+    width: 70%;
     height: 100%;
 }
 .weichat .slideB {
     position: absolute;
     top: 150px;
-    left: 287px;
+    left: 200px;
     z-index: 999;
     animation: mymovetocenter 2s;
     -webkit-animation: mymovetocenter 2s;
 }
 .slideB img {
-    width: 72%;
+    width: 53%;
     height: 100%;
 }
 .weichat .slideC {
@@ -23,7 +31,7 @@
     -webkit-animation: mymovetoleft 2s;
 }
 .slideC img {
-    width: 81%;
+    width: 72%;
     height: 100%;
 }
 @keyframes mymovetoright{
@@ -32,7 +40,7 @@
 	}
 
 	100% {
-	    left: 38px;
+	    left: 150px;
 	}
 }
 @keyframes mymovetocenter{
@@ -49,6 +57,6 @@
 	    right: 0px;
 	}
 	100% {
-	    right: -32px;
+	    right: 121px;
 	}
 }

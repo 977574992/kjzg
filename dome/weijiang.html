@@ -5,13 +5,130 @@
 		<title></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" type="text/css" href="../css/weijiang/weijiang.css"/>
-		<link rel="stylesheet" href="../css/weijiang/weijiang-pad.css" media="(max-width:1000px) and (min-width:600px)"/>
+		<link rel="stylesheet" href="../css/weijiang/weijiang-pad.css" media="(max-width:1000px)"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css">
+		<style type="text/css" media="screen">
+			@media screen and (max-width: 830px) {
+          		  .weichat .slideA {
+			    position: absolute;
+			    top: 100px;
+			    left: 112px;
+			    z-index: 999;
+			    animation: mymovetoright 2s;
+			    -webkit-animation: mymovetoright 2s;
+			}
+			.weichat .slideB {
+			    position: absolute;
+			    top: 150px;
+			    left: 150px;
+			    z-index: 999;
+			    animation: mymovetocenter 2s;
+			    -webkit-animation: mymovetocenter 2s;
+			}
+       		 }
+       		  @media screen and (max-width: 750px){
+			.weichat .slideA {
+			    position: absolute;
+			    top: 100px;
+			    left: 122px;
+			    z-index: 999;
+			    animation: mymovetoright 2s;
+			    -webkit-animation: mymovetoright 2s;
+			}
+			.slideA img {
+			    width: 47%;
+			    height: 100%;
+			}
+			.weichat .slideB {
+			    position: absolute;
+			    top: 127px;
+			    left: 120px;
+			    z-index: 999;
+			    animation: mymovetocenter 2s;
+			    -webkit-animation: mymovetocenter 2s;
+			}
+			.slideB img {
+			    width: 45%;
+			    height: 100%;
+			}
+			.weichat .slideC {
+			    position: absolute;
+			    top: 90px;
+			    right: 91px;
+			    z-index: 999;
+			    animation: mymovetoleft 2s;
+			    -webkit-animation: mymovetoleft 2s;
+			}
+			.slideC img {
+			    width: 50%;
+			    height: 100%;
+			}
+      		  }
+      		
+		</style>
 		<link rel="stylesheet" href="../css/weijiang/weijiang-mobile.css" media="(max-width:599px)"/>
+		<style type="text/css" media="screen">
+			 @media screen and (max-width: 375px) {
+          		.weichat .slideA {
+			    position: absolute;
+			    top: 104px;
+			    left: 3px;
+			    z-index: 999;
+			    animation: mymovetoright 2s;
+			    -webkit-animation: mymovetoright 2s;
+			}
+						.slideA img {
+			    width: 31%;
+			    height: 100%;
+			}
+			.weichat .slideB {
+			    position: absolute;
+			    top: 123px;
+			    left: 18px;
+			    z-index: 999;
+			    animation: mymovetocenter 2s;
+			    -webkit-animation: mymovetocenter 2s;
+			}
+			.slideB img {
+			    width: 41%;
+			    height: 100%;
+			}
+			.weichat .slideC {
+			    position: absolute;
+			    top: 107px;
+			    right: -32px;
+			    z-index: 999;
+			    animation: mymovetoleft 2s;
+			    -webkit-animation: mymovetoleft 2s;
+			}
+			.slideC img {
+			    width: 31%;
+			    height: 100%;
+			}
+       		 }
+		</style>
 	</head>
 	<body>
-	<header id="header" class="">
-		
-	</header>
+	<div class="header_top">
+    <div class="header_center">
+        <div class="head_left">
+            <img src="../img/h_logo.png" alt="">
+        </div>
+        <ul class="head_center">
+            <li><a href="../h_index.html">首页</a></li>
+            <li><a href="javascript:;">服务</a></li>
+            <li><a href="javascript:;">解决方案</a></li>
+            <li><a href="javascript:;">案例展示</a> </li>
+            <li><a href="DesignCenter.html">设计中心</a> </li>
+            <li class="sele"><a href="javascript:;">微匠</a></li>
+            <li><a href="javascript:;">合作伙伴</a></li>
+            <li><a href="wechat.html">微信小程序</a></li>
+        </ul>
+        <div class="head_right">
+            <img src="../img/h_hotline.png" alt="">
+        </div>
+    </div>
+</div>
 	    <div class="weichat">
 	    	<div class="slide-tu">
 	    	<img src="../img/bg1.jpg" height="898" width="1431" alt="">

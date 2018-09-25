@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    overflow-x: hidden;
+}
+.Y_wrapper{
+    overflow: hidden;
+    width: 70%;
+    margin:50px auto;
+    /* background: rgb(122, 121, 121); */
+
+}
+.Y_item{
+    width: 325px;
+    height: 227px;
+}
+.Yn_item{
+    width: 148px;
+    height: 148px;
+    position: relative;
+    margin-left:26%;
+}
+.Yn_img{
+    position: absolute;
+    background-size: 100%;
+    z-index: 3;
+    transition: all .7s;
+    opacity: 0;
+    transform: scale(0, 0);
+
+}
+#Y_canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Yn_item:hover .Yn_img{
+    opacity: 1;
+    transform: scale(1, 1);
+}
+.Y_pt{
+    width: 100%;
+    margin-bottom: 0;
+    margin-top:40px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.Y_industry{
+    background: url(../img/Y-industry-bg.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+    width: 100%;
+    margin:0 auto;
+    position: relative;
+}
+.Y_wrap{
+    width: 70%;
+    margin:0 auto;
+    /* text-align: center */
+}
+.Y_wrapimg{
+    margin:50px auto;
+    margin-left:34%;
+}
+.Y_conclear{
+    width: 100%;
+}
+.Y_time{
+    float: left;
+    position: relative;
+    width: 210px;
+}
+.Y_time p{
+    height: 50px;
+    padding: 100px 0;
+    line-height: 20px;
+    position: relative;
+    z-index: 2;
+}
+.Y_time p span{
+    padding: 10px;
+    background: url(../img/Y-button_img1.png) 0 0 no-repeat;
+    color: #fff;
+    line-height: 30px;
+    cursor: pointer;
+}
+.Y_time p i{
+    vertical-align: middle;
+    margin-left: 28px;
+    padding: 12px;
+    background: url(../img/Y-Shape-10-copy-4.png) center no-repeat;
+}
+.Y_dash{
+    position: absolute;
+    left: 154px;
+    top: 0;
+    height: 100%;
+    z-index: 1;
+    border-right: 1px dashed gray;
+}
+.Y_inent{
+    width: 60%;
+    height: 200px;
+    padding-top: 60px;
+    float:left;
+    margin-left:30px;
+}
+.Y_inent .event-title{
+    font-size: 18px;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+}
+.afert{
+    color: #0061B2;
+    font-size: 14px;
+}
+.Y_aher{
+    font-size: 14px;
+}
+.Y_mor{
+    color: #0061B2 !important;
+    position: absolute;
+    bottom: 20px;
+    right:500px;
+    font-size: 16px;
+}
+.Y_contlink{
+    width: 70%;
+    margin:0 auto;
+    position: relative;
+}
+.Y_title{
+    width: 40%;
+    height: 27px;
+    margin:50px auto;
+    margin-left:30%
+}
+.Y_subtitle{
+    font-size: 24px;
+    text-align: center;
+    margin: 10px auto;
+}
+.Y_nav{
+    position: absolute;
+    top: 240px;
+    left: 100px;
+    margin: 0;
+    z-index: 100;
+  
+    list-style: none;
+}
+.Y_nav li{
+    float:left;
+   
+    width: 94px;
+    height: 41px;
+    line-height: 41px;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    background: white;
+}
+.Y_nav li.Y_current{
+    background: blue;
+    color:white;
+}
+.Y_divli{
+    width: 90%;
+    margin: 0 auto;
+    margin-top:50px;
+    display:none;
+    background-size: 100% 100%;
+}
+.Y_divli img{
+    background-size: 100% 100%;
+}
+.Y_ly{
+    width: 70%;
+    overflow: hidden;
+    margin:0 auto;
+    position: relative;
+}
+.Y_lyP{
+    font-size: 24px;
+    text-align: center;
+    margin: 45px auto;
+}
+.Y_form{
+    width: 60%;
+    margin: 0 auto;
+   
+}
+.Y_inpname,.Y_inpeam{
+    width: 350px;
+    font-size: 18px;
+    padding: 12px;
+    margin: 5px;
+    float:left;
+}
+.Y_cm-textarea {
+    margin: 5px;
+    margin-top: 8px;
+    width: 768px;
+    font-size: 18px;
+    height: 226px;
+}
+#Y_code{
+    width: 152px;
+    font-size: 18px;
+    padding: 12px;
+    margin: 5px;
+    float:left;
+}
+.Y_btn{
+    color: white;
+    background: url(../img/Y-button_img1.png);
+    border: 0;
+    text-align: center;
+    line-height: 60px;
+    margin: 7px 295px 7px;
+    display: inline-block;
+    width: 155px;
+    font-size: 20px;
+    width: 152px;
+    height: 55px;
+    cursor: pointer;
+    position: absolute;
+    right: -20px;
+    bottom:0px;
+
+}
