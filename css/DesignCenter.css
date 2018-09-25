@@ -1,5 +1,5 @@
 #header{
-    height: 110px;
+    height: 100px;
 }
 .banner1{
     height: 1114px;
@@ -35,6 +35,7 @@ ul,li,ol{
 }
 #box .container-fluid .row{
     margin: 0;
+    width: 100%;
 }
 @media screen and (max-width: 1000px){
     .goutong h2 img{

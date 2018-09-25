@@ -1,85 +1,95 @@
-<div class="header_top">
-    <div class="header_center">
-        <div class="head_left">
-            <img src="../img/h_logo.png" alt="">
-        </div>
-        <ul class="head_center">
-            <li class="sele"><a href="javascript:;">首页</a></li>
-            <li><a href="javascript:;">服务</a></li>
-            <li><a href="javascript:;">解决方案</a></li>
-            <li><a href="javascript:;">案例展示</a> </li>
-            <li><a href="javascript:;">设计中心</a> </li>
-            <li><a href="javascript:;">微匠</a></li>
-            <li><a href="javascript:;">合作伙伴</a></li>
-            <li><a href="javascript:;">微信小程序</a></li>
-        </ul>
-        <div class="head_right">
-            <img src="../img/h_hotline.png" alt="">
-        </div>
-    </div>
-</div>
-
 <style>
     * {
         margin: 0;
-        padding: 0;
+        height: 0;
     }
+
     a {
         text-decoration: none;
     }
+
     li {
         list-style: none;
     }
-    .header_top {
+    .h_header {
         width: 100%;
-        height: 99px;
+        z-index: 99999;
+        left: 0;
+        top: 0;
+        position: fixed;
+        background: rgba(255, 255, 255, 0.9);
+        height: 94px;
     }
-    .header_center {
+
+    .h_header_top {
         width: 76%;
-        height: 84%;
+        height: 84px;
         margin: 0 auto;
         padding-top: 15px;
         background: url(../img/h_header_bg.png) right top no-repeat;
     }
-    .head_left {
-        width: 14%;
-        height: 100%;
+
+    .h_header_top .h_logo {
         float: left;
-    }
-    .head_left img {
-        width: 100%;
+        /* width: 14.5%; */
         height: 100%;
     }
-    .head_center {
+
+    .h_nav_list {
         float: left;
-        margin-left: 16px;
+        margin-top: 2.5rem;
         width: 61%;
         height: 40px;
-        margin-top: 40px;
+        margin-left: 1.12rem;
+        padding: 0;
+        background: red;
     }
-    .head_center li {
+
+    .h_nav_list li {
         float: left;
         height: 100%;
-        padding: 0 17px;
         line-height: 40px;
+        padding: 0 17px;
+        cursor: pointer;
     }
-    .head_center  a {
-        color: #000;
+
+    .h_nav_list li a {
+        color: #727272;
     }
-    .sele {
-        background: #248bdb;
-    }
-    .head_center .sele a {
+
+    .h_currLi {
+        background-color: #248bdb;
         color: #fff;
     }
-    .head_right {
+
+    .h_hotline {
         float: right;
-        width: 20%;
-        height: 29px;
-        margin-top: 50px;
-    }
-    .head_right  img {
-        width: 100%;
-        height: 100%;
+        width: 19.7%;
+        height: 30px;
+        margin-top: 3.2rem;
     }
 </style>
+<div class="h_header">
+    <div class="h_header_top">
+        <img class="h_logo" src="../img/h_logo.png" alt="">
+        <ul class="h_nav_list">
+            <li class="h_currLi">首页</li>
+            <li>服务</li>
+            <li>解决方案</li>
+            <li>案例展示</li>
+            <li>
+                <a href="javascript:;">设计中心</a>
+            </li>
+            <li>
+                <a href="javascript:;">微匠</a>
+            </li>
+            <li>
+                <a href="javascript:;">合作伙伴</a>
+            </li>
+            <li>
+                <a href="javascript:;">微信小程序</a>
+            </li>
+        </ul>
+        <img class="h_hotline" src="../img/h_hotline.png" alt="">
+    </div>
+</div>

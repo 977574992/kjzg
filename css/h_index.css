@@ -48,11 +48,11 @@ li {
     padding-top: 5px;
 }
 .h_our_serve {
-    width: 68.5%;
+    width: 63%;
     height: 680px;
     margin: 0 auto;
     position: relative;
-    left: 50px;
+    /* left: 50px; */
 }
 .h_animated {
     width: 100%;
@@ -73,8 +73,8 @@ li {
     background-position: 280px 20px;
     background-size: 38%;
     position: absolute;
-    left: -20px;
-    top: 25px;
+    left: -45px;
+    top: 50px;
     z-index: 2;
 }
 .h_our_serve a {
@@ -83,15 +83,15 @@ li {
 }
 .h_our_serve .h_seve_one {
     position: absolute;
-    left: 115px;
-    top: 22px;
+    left: 110px;
+    top: 25px;
 }
 .h_our_serve .h_seve_one .one_ico {
     transform: scale(1,1);
     transition: all 0.8s ease;
 }
 .h_seve_two {
-    left: -3px;
+    left: -15px;
     top: 180px;
 }
 .h_seve_three {
@@ -103,15 +103,15 @@ li {
     top: 352px;
 }
 .h_seve_five {
-    left: 575px;
+    left: 490px;
     top: 220px;
 }
 .h_seve_six {
-    left: 560px;
+    left: 530px;
     top: 315px;
 }
 .h_seve_seven {
-    left: 732px;
+    left: 670px;
     top: 63px;
     width: 405px;
 }
@@ -360,7 +360,7 @@ li {
 
 
 .contact {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     height: 345px;
     /* background: red; */
@@ -368,9 +368,9 @@ li {
 
 #tickerContainer {
     float: left;
-    width: 527px;
+    width: 480px;
     height: 345px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
 }
 
 #tickerContainer h2 {
@@ -440,8 +440,8 @@ li {
 
 
 #tickerContent {
-    float: left;
-    width: 527px;
+    float: right;
+    width: 480px;
     height: 345px;
 }
 

@@ -63,10 +63,11 @@ var mySwiper = new Swiper('.h_swiper-container', {
     direction: 'horizontal',
     initialSlide: 0,
     loop: true,
-    mousewheel: true,
+    mousewheel:false,
 
     // 如果需要分页器
     pagination: {
         el: '.swiper-pagination',
+        clickable :true,
     },
-})        
+})  

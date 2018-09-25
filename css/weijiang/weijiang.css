@@ -5,7 +5,7 @@
 		    	margin:0;
 		    	padding:0;
 		    }
-		    #header{
+		    .header{
 		    	width:1200px;
 		    	height:100px;
 		    	margin:0 auto;
@@ -13,6 +13,7 @@
 		    }
 			.weichat {
 				width:100%;
+				/*height:1500px;*/
 			    max-width: 1431px;
 			    margin: 0 auto;
 			    text-align: center;
@@ -89,3 +90,91 @@
 				width:100%;
 				height:100%;
 			}
+			 @media screen and (max-width: 1210px) {
+            .weichat .slideB {
+			    position: absolute;
+			    top: 150px;
+			    left: 350px;
+			    z-index: 999;
+			    animation: mymovetocenter 2s;
+			    -webkit-animation: mymovetocenter 2s;
+			}
+			.slideB img {
+			    width: 78%;
+			    height: 100%;
+			}
+        }
+        @media screen and (max-width: 830px) {
+            .weichat .slideA {
+			    position: absolute;
+			    top: 100px;
+			    left: 112px;
+			    z-index: 999;
+			    animation: mymovetoright 2s;
+			    -webkit-animation: mymovetoright 2s;
+			}
+			.weichat .slideB {
+			    position: absolute;
+			    top: 150px;
+			    left: 150px;
+			    z-index: 999;
+			    animation: mymovetocenter 2s;
+			    -webkit-animation: mymovetocenter 2s;
+			}
+        }
+        @media screen and (max-width: 830px) {
+            .weichat .slideA {
+			    position: absolute;
+			    top: 100px;
+			    left: 112px;
+			    z-index: 999;
+			    animation: mymovetoright 2s;
+			    -webkit-animation: mymovetoright 2s;
+			}
+			.weichat .slideB {
+			    position: absolute;
+			    top: 150px;
+			    left: 150px;
+			    z-index: 999;
+			    animation: mymovetocenter 2s;
+			    -webkit-animation: mymovetocenter 2s;
+			}
+        }
+        @media screen and (max-width: 750px){
+			.weichat .slideA {
+			    position: absolute;
+			    top: 100px;
+			    left: 122px;
+			    z-index: 999;
+			    animation: mymovetoright 2s;
+			    -webkit-animation: mymovetoright 2s;
+			}
+			.slideA img {
+			    width: 47%;
+			    height: 100%;
+			}
+			.weichat .slideB {
+			    position: absolute;
+			    top: 127px;
+			    left: 120px;
+			    z-index: 999;
+			    animation: mymovetocenter 2s;
+			    -webkit-animation: mymovetocenter 2s;
+			}
+			.slideB img {
+			    width: 45%;
+			    height: 100%;
+			}
+			.weichat .slideC {
+			    position: absolute;
+			    top: 90px;
+			    right: 91px;
+			    z-index: 999;
+			    animation: mymovetoleft 2s;
+			    -webkit-animation: mymovetoleft 2s;
+			}
+			.slideC img {
+			    width: 50%;
+			    height: 100%;
+			}
+        }
