@@ -194,16 +194,21 @@ a{
     margin: 45px auto;
 }
 .Y_form{
-    width: 60%;
+    width: 72%;
     margin: 0 auto;
    
 }
-.Y_inpname,.Y_inpeam{
-    width: 350px;
+.Y_inpname{
+    width: 44%;
     font-size: 18px;
     padding: 12px;
-    margin: 5px;
     float:left;
+}
+.Y_inpeam{
+    width: 44%;
+    font-size: 18px;
+    padding: 12px;
+    float:right;
 }
 .Y_cm-textarea {
     margin: 5px;
