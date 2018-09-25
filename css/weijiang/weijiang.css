@@ -1,4 +1,4 @@
-			 html{
+	            html{
 		    	font-size:16px;
 		    }
 		    *{
@@ -11,7 +11,7 @@
 		    	margin:0 auto;
 		    	border:1px solid black;
 		    }
-			.weichat {
+		    .weichat {
 				width:100%;
 				/*height:1500px;*/
 			    max-width: 1431px;
@@ -91,7 +91,11 @@
 				height:100%;
 			}
 			 @media screen and (max-width: 1210px) {
+
+            		.weichat .slideB {
+=======
             .weichat .slideB {
+
 			    position: absolute;
 			    top: 150px;
 			    left: 350px;
@@ -103,6 +107,12 @@
 			    width: 78%;
 			    height: 100%;
 			}
+
+       		 }
+       			
+       			 
+       			
+
         }
         @media screen and (max-width: 830px) {
             .weichat .slideA {
@@ -178,3 +188,4 @@
 			    height: 100%;
 			}
         }
+
