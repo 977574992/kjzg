@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/w_index.css">
     <link rel="stylesheet" href="lib/swiper.min.css">
@@ -92,9 +91,73 @@
     </div>
 </div>
     </div>
+<!--合作伙伴-->
+<div class="w_partner">
+    <img src="img/companion-title.png" alt="" class="title">
+    <div class="w_partner-subtitle">
+        我们诚邀您，如他们一样，体验科匠中国的科技创新成果，感受移动互联魅力。
+    </div>
+    <div>
+        <ul class="w_partner-list w_clearfix">
+
+        </ul>
+    </div>
+</div>
+<!--数字-->
+<div class="w_math">
+    <ul class="w_count-list w_of-h">
+        <li>
+            <div class="num-wrap three-box">
+                <span class="num-1" data-to="1000" data-speed="1500"></span>
+                <div class="white-line"></div>
+            </div>
+            <p>千余款移动应用开发</p>
+        </li>
+        <li>
+            <div class="num-wrap three-box">
+                <span class="num-1" data-to="500" data-speed="1500"></span>
+                <div class="white-line"></div>
+                <div class="add-icon"></div>
+            </div>
+            <p>千余款移动应用开发</p>
+        </li>
+        <li>
+            <div class="num-wrap two-box">
+                <span class="num-1" data-to="50" data-speed="1500"></span>
+                <div class="white-line"></div>
+            </div>
+            <p>千余款移动应用开发</p>
+        </li>
+        <li>
+            <div class="num-wrap three-box">
+                <span class="num-1" data-to="200" data-speed="1500"></span>
+                <div class="white-line"></div>
+            </div>
+            <p>千余款移动应用开发</p>
+        </li>
+    </ul>
+</div>
     <script src="lib/jquery-3.2.1.min.js"></script>
     <script src="lib/vue.js"></script>
     <script src="lib/swiper.min.js"></script>
+    <script src="lib/underscore-min.js"></script>
+    <script type="text/template" id="template">
+        <li style="transform: rotate3d(0, 1, 0, 0deg);">
+            <div class="w_partner-wrap">
+                <img src="<%= img %>" alt="">
+                <div class="partner-desc">
+                    <p class="tx"><%= title %></p>
+                </div>
+            </div>
+            <div class="w_partner-wrap none">
+                <img src="<%= img1 %>" alt="">
+                <div class="partner-desc">
+                    <p class="tx"><%= title1 %></p>
+                </div>
+            </div>
+        </li>
+    </script>
     <script src="js/w_index.js"></script>
+
 </body>
 </html>
