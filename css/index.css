@@ -151,7 +151,7 @@ a{
     left: 100px;
     margin: 0;
     z-index: 100;
-  
+    width: 54%; 
     list-style: none;
 }
 .Y_nav li{
@@ -180,6 +180,8 @@ a{
     background-size: 100% 100%;
 }
 .Y_divli img{
+    width: 100%;
+    height: auto;
     background-size: 100% 100%;
 }
 .Y_ly{
@@ -199,21 +201,22 @@ a{
    
 }
 .Y_inpname{
-    width: 44%;
+    width: 40%;
     font-size: 18px;
     padding: 12px;
     float:left;
+   
 }
 .Y_inpeam{
-    width: 44%;
+    width: 40%;
     font-size: 18px;
     padding: 12px;
-    float:right;
+    float:left;
+    margin-left:4%;
 }
 .Y_cm-textarea {
-    margin: 5px;
     margin-top: 8px;
-    width: 768px;
+    width: 90%;
     font-size: 18px;
     height: 226px;
 }
